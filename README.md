@@ -1,5 +1,3 @@
-# ssgs-calc
-
 # Calcolatrice Base in Node.js
 
 Questo progetto è una semplice calcolatrice da riga di comando implementata in Node.js. Fornisce operazioni aritmetiche di base, tra cui addizione, sottrazione, moltiplicazione e divisione.
