@@ -29,4 +29,3 @@ module.exports = {
     pow,
 };
 
-console.log(module);
