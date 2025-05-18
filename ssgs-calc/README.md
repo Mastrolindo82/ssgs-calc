@@ -18,7 +18,7 @@ Questo progetto è una semplice calcolatrice da riga di comando implementata in 
 
 1. Clona il repository:
    ```
-   git clone https://github.com/Mastrolindo82/ssgs-calc.git
+   git clone https://github.com/Mastrolindo/ssgs-calc.git
    ```
 2. Vai nella directory del progetto:
    ```

@@ -1,8 +1,8 @@
-const sum = require('./math').sum;
-const diff = require('./math').diff;
-const multiply = require('./math').multiply;
-const divide = require('./math').divide;
-const pow = require('./math').pow;
+const sum = require('../src/math').sum;
+const diff = require('../src/math').diff;
+const multiply = require('../src/math').multiply;
+const divide = require('../src/math').divide;
+const pow = require('../src/math').pow;
 
 
 describe('Math functions', () => {
