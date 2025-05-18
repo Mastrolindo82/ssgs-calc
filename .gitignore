@@ -1,0 +1,40 @@
+# Cartelle da escludere per Node.js
+node_modules/
+coverage/
+
+# File di compilazione Java
+*.class
+
+# Cartelle di output comuni
+/bin/
+/build/
+/out/
+
+# File generati da IDE
+*.iml
+.idea/
+*.ipr
+*.iws
+*.log
+
+# File di configurazione Eclipse
+.project
+.classpath
+.settings/
+
+# File di configurazione NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# File di configurazione VS Code
+.vscode/
+
+# File temporanei di sistema
+.DS_Store
+
+# Librerie scaricate
+lib/
