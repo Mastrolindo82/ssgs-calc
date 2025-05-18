@@ -1,18 +1,24 @@
 # Calcolatrice Base in Node.js
 
-Questo progetto è una semplice calcolatrice da riga di comando implementata in Node.js. Fornisce operazioni aritmetiche di base, tra cui addizione, sottrazione, moltiplicazione e divisione.
+Questo progetto è una semplice calcolatrice da riga di comando implementata in Node.js. Fornisce operazioni aritmetiche di base, tra cui addizione, sottrazione, moltiplicazione, divisione e potenza.
+
+## Requisiti
+
+- Node.js >= 18.x (LTS consigliata)
 
 ## Funzionalità
 
-- Esegui operazioni aritmetiche di base: addizione, sottrazione, moltiplicazione e divisione.
-- Interfaccia a riga di comando per l'interazione con l'utente.
-- Validazione degli input per garantire un utilizzo corretto.
+- Operazioni: somma, differenza, moltiplicazione, divisione, potenza.
+- Gestione errori: divisione per zero.
+- Interfaccia a riga di comando.
+- Validazione degli input.
+<!-- Elenca qui eventuali altre funzionalità extra implementate -->
 
 ## Installazione
 
 1. Clona il repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/Mastrolindo/ssgs-calc.git
    ```
 2. Vai nella directory del progetto:
    ```
@@ -25,14 +31,17 @@ Questo progetto è una semplice calcolatrice da riga di comando implementata in 
 
 ## Utilizzo
 
-Per eseguire la calcolatrice, usa il seguente comando:
+Per eseguire la calcolatrice:
 ```
-node cli.js "oppure" npm start
-```
-Per eseguire i test, usa il comando:
-```
-nmp test
+npm start
 ```
 
-Segui le istruzioni per selezionare un'operazione e inserire i numeri richiesti. Il risultato verrà mostrato nella console.
+Per eseguire i test unitari e ottenere la code coverage:
+```
+npm test
+```
+Il target di coverage richiesto è 100%. Il report viene generato nella cartella `coverage/`.
 
+## Integrazione Continua
+
+Il progetto utilizza GitHub Actions per eseguire automaticamente i test e la code coverage su ogni push e pull request.
