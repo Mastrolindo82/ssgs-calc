@@ -1,0 +1,19 @@
+{
+  "name": "ssgs-calc",
+  "version": "1.0.0",
+  "description": "Una semplice calcolatrice da riga di comando in Node.js",
+  "main": "math.js",
+  "scripts": {
+    "start": "node cli.js",
+    "test": "jest --coverage"
+  },
+
+  "keywords": ["calculator", "math", "nodejs"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description":" ",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
